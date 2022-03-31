@@ -47,10 +47,12 @@ height: 50px;
 
 /* Slideshow container */
 .slideshow-container {
-  padding-top: 50px;
-  width: 500px;
-  position: relative;
-  margin: auto;
+  z-index: 2;
+  padding-top: 30px;
+  position: absolute;
+  left: 20px; 
+  width: 50%;
+
 }
 
 /* Hide the images by default */
@@ -108,6 +110,9 @@ height: 50px;
 
 /* The dots/bullets/indicators */
 .dot {
+  position: relative;
+  top: 535px;
+  left: -350px;
   cursor: pointer;
   height: 15px;
   width: 15px;
@@ -131,4 +136,65 @@ height: 50px;
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
+}
+.top-rectangle {
+  z-index: 1;
+  position: relative;
+  top: 100px;
+  width: 100%;
+  height: 300px;
+  background-color: #dad8d8;
+}
+.top-rectangle-h1, .top-rectangle-body {
+  position: relative;
+  right: 20px;
+  top: 30px;
+  text-align: right;
+  color: black;
+}
+.calltoaction {
+  text-decoration: none;
+  position: absolute;
+  top: -15px;
+  right: 15px;
+  color: white;
+}
+.CTA_signup {
+  border-radius: 5px;
+  width: 150px;
+  height: 50px;
+  position: absolute;
+  top: 200px;
+  right: 50px;
+  background-color: #e91e1e;
+}
+.container1 {
+  display: flex;
+  flex-wrap: wrap;
+}
+.block {
+  width: 402px;
+  height: 352px;
+  margin: 20px;
+}
+.title {
+  position: relative;
+  left: 10px;
+}
+.diet-img {
+  width: 400px;
+  height: 275px;
+  transition: all 1s;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+.diet-img:hover {
+  transform: scale(1.05);
+}
+.diets {
+  text-align: center;
+  color: black;
+}
+a {
+  text-decoration: none;
 }

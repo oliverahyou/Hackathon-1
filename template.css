@@ -24,14 +24,7 @@ body {
   background-color: #4d8b29;
   height: 50px;
 }
-#homeButton {
-  text-decoration: none;
-  position: absolute;
-  top: 0px;
-  font-family: 'Calistoga';
-  font-size: 22px;
-  color: white;
-}
+
 
 
 * {box-sizing:border-box}
