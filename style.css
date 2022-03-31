@@ -1,8 +1,10 @@
 body {
-  font-family: arial, sans-serif;
+  font-family: 'Bebas Neue';
+  font-size: 22px;
   margin: 0;
 }
 .nav_list {
+font-family:'Bebas Neue';
 margin: 0;
 padding: 0;
 list-style-type: none;
@@ -48,7 +50,7 @@ height: 50px;
 /* Slideshow container */
 .slideshow-container {
   z-index: 2;
-  padding-top: 30px;
+  padding-top: 20px;
   position: absolute;
   left: 20px; 
   width: 50%;
@@ -111,7 +113,7 @@ height: 50px;
 /* The dots/bullets/indicators */
 .dot {
   position: relative;
-  top: 535px;
+  top: 518px;
   left: -350px;
   cursor: pointer;
   height: 15px;
@@ -171,7 +173,7 @@ height: 50px;
 .container1 {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
 
 }
 .block {
@@ -188,7 +190,7 @@ height: 50px;
   width: 400px;
   height: 275px;
   transition: all 1s;
-  border: 1px solid black;
+  border: 1px solid grey;
   border-radius: 10px;
 }
 .diet-img:hover {
@@ -200,10 +202,11 @@ height: 50px;
 }
 a {
   text-decoration: none;
+  color: black;
 }
 .rect {
   width: 250px;
-  height: 500px;
+  height: 650px;
   margin: 0px;
   background-color: #99ec69;
 }
@@ -214,4 +217,30 @@ a {
 }
 .intro {
   margin-left: 20px;
+}
+.vertical {
+  width: 24vw;
+  height: 90vh;
+  margin-top: 5px;
+  margin-left: 5px;
+  display: inline-block;
+  border: 1px solid grey;
+  text-align: center;
+  
+}
+.box {
+  width: 24vw;
+  height: 10vh;
+  background-color: lightgrey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.coaching-img {
+  width: 24vw;
+  height: 90vh;
+}
+.workoutplan {
+  display: flex;
+  justify-content: space-around;
 }
