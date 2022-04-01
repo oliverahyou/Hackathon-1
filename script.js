@@ -41,12 +41,12 @@ let supplements = {
   whitewine_3:{name: 'Nitrotech Elite Protein', price: 1800},
   whitewine_4:{name: 'Celltech Creactor Postworkout', price: 1200},
 }
-​
+
 function add_to_cart(selection){
   alert(`${supplements[selection].name} - Rs${supplements[selection].price} added to cart.`);
   let new_item = `${supplements[selection].name},${supplements[selection].price}`
   let current_cart = localStorage.getItem('cart');
-​
+
   if (current_cart === ''){
       localStorage.setItem('cart', new_item);
   }
@@ -54,11 +54,11 @@ function add_to_cart(selection){
       localStorage.setItem('cart', current_cart + ',' + new_item);
   }
 }
-​
+
 function check_cart(){
   let cart = localStorage.getItem('cart');
   console.log(cart);
-​
+
   if (cart === null || cart === ''){
       console.log("Cart is empty!")
       localStorage.setItem('cart', '');
@@ -66,26 +66,23 @@ function check_cart(){
   else{
       console.log("Cart is not empty");
   }
-​
+
 }
-​
 function reset_cart(){
   console.log("Reset Cart");
   localStorage.setItem('cart', '');
 }
-​
+
 function update_cart(){
   let cart = localStorage.getItem('cart');
-​
+
   if (cart === ''){
       console.log("Cart is empty!");
   }
   else {
       let cart_arr = cart.split(",")
       console.log(cart_arr);
-​
       let table = document.getElementById('cart_table');
-​
       let total = 0;
       let len = cart_arr.length;
       for (let idx = 0; idx <= len; idx += 2) {
@@ -94,7 +91,6 @@ function update_cart(){
           let qty = document.createElement('td');
           let price = document.createElement('td');
           price.style.textAlign = 'right';
-​
           if (idx === len) {
               qty.innerText = 'Total:';
               qty.style.fontWeight = 'bold';
