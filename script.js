@@ -106,7 +106,7 @@ function update_cart(){
               qty.style.paddingLeft = '10px';
               price.innerText = Number(cart_arr[idx + 1].trim()).toLocaleString();
               total += Number(cart_arr[idx + 1].trim());
-          }​
+          }
           row.appendChild(item);
           row.appendChild(qty);
           row.appendChild(price);

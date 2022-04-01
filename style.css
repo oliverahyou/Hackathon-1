@@ -35,7 +35,6 @@ height: 50px;
   text-decoration: none;
   position: absolute;
   top: 0px;
-  font-family: 'Calistoga';
   font-size: 22px;
   color: white;
 }
@@ -46,7 +45,7 @@ height: 50px;
   padding-top: 20px;
   position: absolute;
   left: 20px; 
-  top: 300px;
+  top: 75px;
   width: 50%;
 }
 /* Hide the images by default */
@@ -360,4 +359,8 @@ a {
   position: relative;
   top: -300px;
   left: -40px;
+}
+
+#logo {
+  width: 50px;
 }
