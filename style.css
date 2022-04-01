@@ -264,12 +264,13 @@ a {
 }
 #copy {
   position: relative;
-  top: 35px;
+  top: 5px;
 }
+/* Used as left-col for myaccount-signup.html */
 .right-col {
   padding-right: 100px;
   width: 50%;
-  height: 120vh;
+  height: 200vh;
   background-color: #346b13;
   text-align: center;
   display: flex;
@@ -284,15 +285,68 @@ a {
 .right-content {
   color: white;
   text-align: center;
+  position: relative;
+  top: -250px;
+
 }
 .fa-user-plus {
   color: white;
   position: relative;
-  top: -150px;
+  top: -400px;
   left: 280px;
 }
+
 #register {
   width: 30vw;
   padding: 10px 30px;
   font-family: 'Bebas Neue'
+}
+#signupform {
+  text-align: left;
+}
+
+#fname {
+  width: 30vw;
+  padding: 10px 30px;
+}
+#lname {
+  width: 30vw;
+  padding: 10px 30px;
+}
+#uname {
+  width: 30vw;
+  padding: 10px 30px;
+}
+#email {
+  width: 30vw;
+  padding: 10px 30px;
+}
+#pwd {
+  width: 30vw;
+  padding: 10px 30px;
+}
+#re-pwd {
+  width: 30vw;
+  padding: 10px 30px;
+}
+#submt {
+  width: 30vw;
+  padding: 10px 30px;
+  font-family: 'Bebas Neue';
+}
+.fa-user-check {
+  position: relative;
+  top: -450px;
+  left: 250px;
+  color: white;
+}
+#login2 {
+  width: 30vw;
+  padding: 10px 30px;
+  font-family: 'Bebas Neue';
+}
+.content119 {
+  position: relative;
+  top: -300px;
+  left: -40px;
 }
