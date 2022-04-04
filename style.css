@@ -149,7 +149,7 @@ height: 50px;
 }
 .calltoaction {
   position: relative;
-  top: 3px;
+  top: -3px;
   color: white;
 }
 .CTA_signup {
